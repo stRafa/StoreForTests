@@ -2,7 +2,7 @@
 {
     public class Customer : Entity
     {
-        public Customer(string name, string email, Guid id)
+        public Customer(string name, string email)
         {
             Name = name;
             Email = email;

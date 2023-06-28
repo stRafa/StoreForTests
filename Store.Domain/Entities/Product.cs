@@ -2,7 +2,7 @@
 {
     public class Product : Entity
     {
-        public Product(string title, decimal price, bool active, Guid id)
+        public Product(string title, decimal price, bool active)
         {
             Title = title;
             Price = price;
